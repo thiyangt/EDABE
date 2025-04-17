@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>11&nbsp; Casestudies in Exploratory Data Analysis – Exploratory Data ANalysis for Ecologist and Biologists</title>
+<title>11&nbsp; Spatial Data Visualisation – Exploratory Data Analysis for Ecologists and Biologists</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./ch11.html" rel="next">
 <link href="./ch9.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Exploratory Data ANalysis for Ecologist and Biologists</a> 
+      <a href="./">Exploratory Data Analysis for Ecologists and Biologists</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -180,6 +180,36 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./ch11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Temporal Data Visualisation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Spatio-Temporal Data Visualisation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">ch13.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Way Forward</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Casestudies in Exploratory Data Analysis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -194,8 +224,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#casestudy-1" id="toc-casestudy-1" class="nav-link active" data-scroll-target="#casestudy-1"><span class="header-section-number">11.1</span> Casestudy 1</a></li>
-  <li><a href="#casestudy-2" id="toc-casestudy-2" class="nav-link" data-scroll-target="#casestudy-2"><span class="header-section-number">11.2</span> Casestudy 2</a></li>
+  <li><a href="#what-is-spatial-data" id="toc-what-is-spatial-data" class="nav-link active" data-scroll-target="#what-is-spatial-data"><span class="header-section-number">11.1</span> What is Spatial Data?</a></li>
+  <li><a href="#data-wrangling-for-spatial-data" id="toc-data-wrangling-for-spatial-data" class="nav-link" data-scroll-target="#data-wrangling-for-spatial-data"><span class="header-section-number">11.2</span> Data Wrangling for Spatial Data</a></li>
+  <li><a href="#map-visualisations" id="toc-map-visualisations" class="nav-link" data-scroll-target="#map-visualisations"><span class="header-section-number">11.3</span> Map Visualisations</a></li>
   </ul>
 </nav>
     </div>
@@ -204,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Casestudies in Exploratory Data Analysis</span></h1>
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Spatial Data Visualisation</span></h1>
 </div>
 
 
@@ -221,11 +252,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="casestudy-1" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="casestudy-1"><span class="header-section-number">11.1</span> Casestudy 1</h2>
+<section id="what-is-spatial-data" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="what-is-spatial-data"><span class="header-section-number">11.1</span> What is Spatial Data?</h2>
 </section>
-<section id="casestudy-2" class="level2" data-number="11.2">
-<h2 data-number="11.2" class="anchored" data-anchor-id="casestudy-2"><span class="header-section-number">11.2</span> Casestudy 2</h2>
+<section id="data-wrangling-for-spatial-data" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="data-wrangling-for-spatial-data"><span class="header-section-number">11.2</span> Data Wrangling for Spatial Data</h2>
+</section>
+<section id="map-visualisations" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="map-visualisations"><span class="header-section-number">11.3</span> Map Visualisations</h2>
 
 
 </section>
@@ -658,8 +692,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ch11.html" class="pagination-link" aria-label="Temporal Data Visualisation">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Temporal Data Visualisation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

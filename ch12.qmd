@@ -1,7 +1,2 @@
-# Casestudies in Exploratory Data Analysis 
+# Spatio-Temporal Data Visualisation
 
-## Casestudy  1
-
-
-
-## Casestudy 2

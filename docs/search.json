@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Exploratory Data ANalysis for Ecologist and Biologists",
+    "title": "Exploratory Data Analysis for Ecologists and Biologists",
     "section": "",
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
     "crumbs": [
@@ -462,31 +462,11 @@
   {
     "objectID": "ch10.html",
     "href": "ch10.html",
-    "title": "11  Casestudies in Exploratory Data Analysis",
+    "title": "11  Spatial Data Visualisation",
     "section": "",
-    "text": "11.1 Casestudy 1",
+    "text": "11.1 What is Spatial Data?",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
-    ]
-  },
-  {
-    "objectID": "ch10.html#casestudy-2",
-    "href": "ch10.html#casestudy-2",
-    "title": "11  Casestudies in Exploratory Data Analysis",
-    "section": "11.2 Casestudy 2",
-    "text": "11.2 Casestudy 2",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
     ]
   },
   {
@@ -507,6 +487,66 @@
     "text": "11.3 Map Visualisations",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch11.html",
+    "href": "ch11.html",
+    "title": "12  Temporal Data Visualisation",
+    "section": "",
+    "text": "12.1 What is Temporal Data?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Temporal Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch11.html#data-wrangling-for-temporal-data",
+    "href": "ch11.html#data-wrangling-for-temporal-data",
+    "title": "12  Temporal Data Visualisation",
+    "section": "12.2 Data Wrangling for Temporal Data",
+    "text": "12.2 Data Wrangling for Temporal Data",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Temporal Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch11.html#time-series-visualisations",
+    "href": "ch11.html#time-series-visualisations",
+    "title": "12  Temporal Data Visualisation",
+    "section": "12.3 Time Series Visualisations",
+    "text": "12.3 Time Series Visualisations",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Temporal Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch15.html",
+    "href": "ch15.html",
+    "title": "16  Casestudies in Exploratory Data Analysis",
+    "section": "",
+    "text": "16.1 Casestudy 1",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Casestudies in Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch15.html#casestudy-2",
+    "href": "ch15.html#casestudy-2",
+    "title": "16  Casestudies in Exploratory Data Analysis",
+    "section": "16.2 Casestudy 2",
+    "text": "16.2 Casestudy 2",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Casestudies in Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
     ]
   }
 ]

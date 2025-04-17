@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Data Wrangling for EDA – Exploratory Data Analysis for Ecologists and Biologists</title>
+<title>13&nbsp; Spatio-Temporal Data Visualisation – Exploratory Data Analysis for Ecologists and Biologists</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ch5.html" rel="next">
-<link href="./ch3.html" rel="prev">
+<link href="./ch13.html" rel="next">
+<link href="./ch11.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch4.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Wrangling for EDA</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch12.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Spatio-Temporal Data Visualisation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch4.html" class="sidebar-item-text sidebar-link active">
+  <a href="./ch4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Wrangling for EDA</span></span></a>
   </div>
 </li>
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch12.html" class="sidebar-item-text sidebar-link">
+  <a href="./ch12.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Spatio-Temporal Data Visualisation</span></span></a>
   </div>
 </li>
@@ -219,30 +219,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">5.1</span> Introduction</a></li>
-  <li><a href="#pivot-data-from-long-to-wide" id="toc-pivot-data-from-long-to-wide" class="nav-link" data-scroll-target="#pivot-data-from-long-to-wide"><span class="header-section-number">5.2</span> Pivot Data from Long to Wide</a></li>
-  <li><a href="#pivot-data-from-long-to-wide-1" id="toc-pivot-data-from-long-to-wide-1" class="nav-link" data-scroll-target="#pivot-data-from-long-to-wide-1"><span class="header-section-number">5.3</span> Pivot Data from Long to Wide</a></li>
-  <li><a href="#filter-subset-of-rows" id="toc-filter-subset-of-rows" class="nav-link" data-scroll-target="#filter-subset-of-rows"><span class="header-section-number">5.4</span> Filter Subset of Rows</a></li>
-  <li><a href="#select-subset-of-columns" id="toc-select-subset-of-columns" class="nav-link" data-scroll-target="#select-subset-of-columns"><span class="header-section-number">5.5</span> Select Subset of Columns</a></li>
-  <li><a href="#reorder-rows-and-columns" id="toc-reorder-rows-and-columns" class="nav-link" data-scroll-target="#reorder-rows-and-columns"><span class="header-section-number">5.6</span> Reorder Rows and Columns</a></li>
-  <li><a href="#create-new-variables" id="toc-create-new-variables" class="nav-link" data-scroll-target="#create-new-variables"><span class="header-section-number">5.7</span> Create New Variables</a></li>
-  <li><a href="#collapse-dataset-to-summary-measures" id="toc-collapse-dataset-to-summary-measures" class="nav-link" data-scroll-target="#collapse-dataset-to-summary-measures"><span class="header-section-number">5.8</span> Collapse Dataset to Summary Measures</a></li>
-  <li><a href="#create-group-wise-calculations" id="toc-create-group-wise-calculations" class="nav-link" data-scroll-target="#create-group-wise-calculations"><span class="header-section-number">5.9</span> Create Group-Wise Calculations</a></li>
-  <li><a href="#rename-exsisting-variables" id="toc-rename-exsisting-variables" class="nav-link" data-scroll-target="#rename-exsisting-variables"><span class="header-section-number">5.10</span> Rename Exsisting Variables</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Wrangling for EDA</span></h1>
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Spatio-Temporal Data Visualisation</span></h1>
 </div>
 
 
@@ -259,38 +244,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">5.1</span> Introduction</h2>
-</section>
-<section id="pivot-data-from-long-to-wide" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="pivot-data-from-long-to-wide"><span class="header-section-number">5.2</span> Pivot Data from Long to Wide</h2>
-</section>
-<section id="pivot-data-from-long-to-wide-1" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="pivot-data-from-long-to-wide-1"><span class="header-section-number">5.3</span> Pivot Data from Long to Wide</h2>
-</section>
-<section id="filter-subset-of-rows" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="filter-subset-of-rows"><span class="header-section-number">5.4</span> Filter Subset of Rows</h2>
-</section>
-<section id="select-subset-of-columns" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="select-subset-of-columns"><span class="header-section-number">5.5</span> Select Subset of Columns</h2>
-</section>
-<section id="reorder-rows-and-columns" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="reorder-rows-and-columns"><span class="header-section-number">5.6</span> Reorder Rows and Columns</h2>
-</section>
-<section id="create-new-variables" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="create-new-variables"><span class="header-section-number">5.7</span> Create New Variables</h2>
-</section>
-<section id="collapse-dataset-to-summary-measures" class="level2" data-number="5.8">
-<h2 data-number="5.8" class="anchored" data-anchor-id="collapse-dataset-to-summary-measures"><span class="header-section-number">5.8</span> Collapse Dataset to Summary Measures</h2>
-</section>
-<section id="create-group-wise-calculations" class="level2" data-number="5.9">
-<h2 data-number="5.9" class="anchored" data-anchor-id="create-group-wise-calculations"><span class="header-section-number">5.9</span> Create Group-Wise Calculations</h2>
-</section>
-<section id="rename-exsisting-variables" class="level2" data-number="5.10">
-<h2 data-number="5.10" class="anchored" data-anchor-id="rename-exsisting-variables"><span class="header-section-number">5.10</span> Rename Exsisting Variables</h2>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -715,13 +670,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ch3.html" class="pagination-link" aria-label="R Programming Basics">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">R Programming Basics</span></span>
+      <a href="./ch11.html" class="pagination-link" aria-label="Temporal Data Visualisation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Temporal Data Visualisation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ch5.html" class="pagination-link" aria-label="Data Profiling for EDA">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Profiling for EDA</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ch13.html" class="pagination-link" aria-label="ch13.html">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">ch13.html</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
