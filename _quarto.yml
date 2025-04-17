@@ -23,7 +23,6 @@ book:
     - ch12.qmd
     - ch13.qmd
     - ch14.qmd
-    - ch15.qmd
     - references.qmd
 bibliography: references.bib
 
