@@ -1,0 +1,7 @@
+# High Dimensional(More than 3 Variables) Exploratory Data Analysis 
+
+## EDA for Qualitative Variables
+
+## EDA for Quantitative Variables
+
+## EDA for Qualitative Variables and Quantitative Variables

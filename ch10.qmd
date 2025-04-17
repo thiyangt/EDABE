@@ -1,0 +1,7 @@
+# Spatial Data Visualisation
+
+## What is Spatial Data?
+
+## Data Wrangling for Spatial Data
+
+## Map Visualisations

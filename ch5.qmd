@@ -1,0 +1,30 @@
+# Data Profiling for EDA
+
+## What is Data Profiling?
+
+## Why Data Profiling is Important?
+
+Ensures data quality before analysis or modeling
+
+Helps in detecting errors early
+
+Guides decisions on data cleaning and transformation
+
+Builds trust in data-driven research or decision-making
+
+## Structure Analysis
+
+## Duplicate Analysis
+
+## Value Distribution
+
+## Range and Outliers
+
+## Consistency
+
+## Relationships Between Variables
+
+
+## Missing Value Visualisation
+
+

@@ -1,0 +1,512 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exploratory Data ANalysis for Ecologist and Biologists",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "ch1.html",
+    "href": "ch1.html",
+    "title": "2  Introduction to Exploratory Data Analysis",
+    "section": "",
+    "text": "2.1 What is Exploratory Data Analysis (EDA)?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch1.html#why-eda-is-critical-before-modeling",
+    "href": "ch1.html#why-eda-is-critical-before-modeling",
+    "title": "2  Introduction to Exploratory Data Analysis",
+    "section": "2.2 Why EDA is critical before modeling?",
+    "text": "2.2 Why EDA is critical before modeling?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch1.html#da-vs-confirmatory-data-analysis-cda",
+    "href": "ch1.html#da-vs-confirmatory-data-analysis-cda",
+    "title": "2  Introduction to Exploratory Data Analysis",
+    "section": "2.3 DA vs Confirmatory Data Analysis (CDA)",
+    "text": "2.3 DA vs Confirmatory Data Analysis (CDA)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch1.html#examples-of-questions-eda-can-answer",
+    "href": "ch1.html#examples-of-questions-eda-can-answer",
+    "title": "2  Introduction to Exploratory Data Analysis",
+    "section": "2.4 Examples of questions EDA can answer",
+    "text": "2.4 Examples of questions EDA can answer",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html",
+    "href": "ch2.html",
+    "title": "3  Getting to Know Your Data and Making Your Data Ready to Analyse",
+    "section": "",
+    "text": "3.1 Types of Data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Getting to Know Your Data and Making Your Data Ready to Analyse</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html#sacles-of-measurements",
+    "href": "ch2.html#sacles-of-measurements",
+    "title": "3  Getting to Know Your Data and Making Your Data Ready to Analyse",
+    "section": "3.2 Sacles of Measurements",
+    "text": "3.2 Sacles of Measurements",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Getting to Know Your Data and Making Your Data Ready to Analyse</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html#introduction-to-tidy-data",
+    "href": "ch2.html#introduction-to-tidy-data",
+    "title": "3  Getting to Know Your Data and Making Your Data Ready to Analyse",
+    "section": "3.3 Introduction to tidy data",
+    "text": "3.3 Introduction to tidy data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Getting to Know Your Data and Making Your Data Ready to Analyse</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html#dos-and-donts-when-entering-data-into-an-excel-sheet",
+    "href": "ch2.html#dos-and-donts-when-entering-data-into-an-excel-sheet",
+    "title": "3  Getting to Know Your Data and Making Your Data Ready to Analyse",
+    "section": "3.4 Dos and Don’ts when Entering Data into an Excel Sheet",
+    "text": "3.4 Dos and Don’ts when Entering Data into an Excel Sheet",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Getting to Know Your Data and Making Your Data Ready to Analyse</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html",
+    "href": "ch3.html",
+    "title": "4  R Programming Basics",
+    "section": "",
+    "text": "4.1 Intalling R",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#installing-rstudio",
+    "href": "ch3.html#installing-rstudio",
+    "title": "4  R Programming Basics",
+    "section": "4.2 Installing RStudio",
+    "text": "4.2 Installing RStudio",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#installing-rtools",
+    "href": "ch3.html#installing-rtools",
+    "title": "4  R Programming Basics",
+    "section": "4.3 Installing Rtools",
+    "text": "4.3 Installing Rtools",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#installing-packages-in-r",
+    "href": "ch3.html#installing-packages-in-r",
+    "title": "4  R Programming Basics",
+    "section": "4.4 Installing Packages in R",
+    "text": "4.4 Installing Packages in R",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#import-data-into-r",
+    "href": "ch3.html#import-data-into-r",
+    "title": "4  R Programming Basics",
+    "section": "4.5 Import Data into R",
+    "text": "4.5 Import Data into R",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#use-factors-for-categorical-variables",
+    "href": "ch3.html#use-factors-for-categorical-variables",
+    "title": "4  R Programming Basics",
+    "section": "4.6 Use factors for categorical variables",
+    "text": "4.6 Use factors for categorical variables",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>R Programming Basics</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html",
+    "href": "ch4.html",
+    "title": "5  Data Wrangling for EDA",
+    "section": "",
+    "text": "5.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#pivot-data-from-long-to-wide",
+    "href": "ch4.html#pivot-data-from-long-to-wide",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.2 Pivot Data from Long to Wide",
+    "text": "5.2 Pivot Data from Long to Wide",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#pivot-data-from-long-to-wide-1",
+    "href": "ch4.html#pivot-data-from-long-to-wide-1",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.3 Pivot Data from Long to Wide",
+    "text": "5.3 Pivot Data from Long to Wide",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#filter-subset-of-rows",
+    "href": "ch4.html#filter-subset-of-rows",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.4 Filter Subset of Rows",
+    "text": "5.4 Filter Subset of Rows",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#select-subset-of-columns",
+    "href": "ch4.html#select-subset-of-columns",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.5 Select Subset of Columns",
+    "text": "5.5 Select Subset of Columns",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#reorder-rows-and-columns",
+    "href": "ch4.html#reorder-rows-and-columns",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.6 Reorder Rows and Columns",
+    "text": "5.6 Reorder Rows and Columns",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#create-new-variables",
+    "href": "ch4.html#create-new-variables",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.7 Create New Variables",
+    "text": "5.7 Create New Variables",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#collapse-dataset-to-summary-measures",
+    "href": "ch4.html#collapse-dataset-to-summary-measures",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.8 Collapse Dataset to Summary Measures",
+    "text": "5.8 Collapse Dataset to Summary Measures",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#create-group-wise-calculations",
+    "href": "ch4.html#create-group-wise-calculations",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.9 Create Group-Wise Calculations",
+    "text": "5.9 Create Group-Wise Calculations",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html#rename-exsisting-variables",
+    "href": "ch4.html#rename-exsisting-variables",
+    "title": "5  Data Wrangling for EDA",
+    "section": "5.10 Rename Exsisting Variables",
+    "text": "5.10 Rename Exsisting Variables",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Wrangling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html",
+    "href": "ch5.html",
+    "title": "6  Data Profiling for EDA",
+    "section": "",
+    "text": "6.1 What is Data Profiling?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#why-data-profiling-is-important",
+    "href": "ch5.html#why-data-profiling-is-important",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.2 Why Data Profiling is Important?",
+    "text": "6.2 Why Data Profiling is Important?\nEnsures data quality before analysis or modeling\nHelps in detecting errors early\nGuides decisions on data cleaning and transformation\nBuilds trust in data-driven research or decision-making",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#structure-analysis",
+    "href": "ch5.html#structure-analysis",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.3 Structure Analysis",
+    "text": "6.3 Structure Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#duplicate-analysis",
+    "href": "ch5.html#duplicate-analysis",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.4 Duplicate Analysis",
+    "text": "6.4 Duplicate Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#value-distribution",
+    "href": "ch5.html#value-distribution",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.5 Value Distribution",
+    "text": "6.5 Value Distribution",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#range-and-outliers",
+    "href": "ch5.html#range-and-outliers",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.6 Range and Outliers",
+    "text": "6.6 Range and Outliers",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#consistency",
+    "href": "ch5.html#consistency",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.7 Consistency",
+    "text": "6.7 Consistency",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#relationships-between-variables",
+    "href": "ch5.html#relationships-between-variables",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.8 Relationships Between Variables",
+    "text": "6.8 Relationships Between Variables",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html#missing-value-visualisation",
+    "href": "ch5.html#missing-value-visualisation",
+    "title": "6  Data Profiling for EDA",
+    "section": "6.9 Missing Value Visualisation",
+    "text": "6.9 Missing Value Visualisation",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Profiling for EDA</span>"
+    ]
+  },
+  {
+    "objectID": "ch6.html",
+    "href": "ch6.html",
+    "title": "7  Univariate Exploratory Data Analysis",
+    "section": "",
+    "text": "7.1 EDA for Qualitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Univariate Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch6.html#eda-for-quantitative-variables",
+    "href": "ch6.html#eda-for-quantitative-variables",
+    "title": "7  Univariate Exploratory Data Analysis",
+    "section": "7.2 EDA for Quantitative Variables",
+    "text": "7.2 EDA for Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Univariate Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch7.html",
+    "href": "ch7.html",
+    "title": "8  Bivariate Exploratory Data Analysis",
+    "section": "",
+    "text": "8.1 EDA for Qualitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bivariate Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch7.html#eda-for-quantitative-variables",
+    "href": "ch7.html#eda-for-quantitative-variables",
+    "title": "8  Bivariate Exploratory Data Analysis",
+    "section": "8.2 EDA for Quantitative Variables",
+    "text": "8.2 EDA for Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bivariate Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch7.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "href": "ch7.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "title": "8  Bivariate Exploratory Data Analysis",
+    "section": "8.3 EDA for Qualitative Variables and Quantitative Variables",
+    "text": "8.3 EDA for Qualitative Variables and Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bivariate Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch8.html",
+    "href": "ch8.html",
+    "title": "9  Trivariable Exploratory Data Analysis",
+    "section": "",
+    "text": "9.1 EDA for Qualitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trivariable Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch8.html#eda-for-quantitative-variables",
+    "href": "ch8.html#eda-for-quantitative-variables",
+    "title": "9  Trivariable Exploratory Data Analysis",
+    "section": "9.2 EDA for Quantitative Variables",
+    "text": "9.2 EDA for Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trivariable Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch8.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "href": "ch8.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "title": "9  Trivariable Exploratory Data Analysis",
+    "section": "9.3 EDA for Qualitative Variables and Quantitative Variables",
+    "text": "9.3 EDA for Qualitative Variables and Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Trivariable Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch9.html",
+    "href": "ch9.html",
+    "title": "10  High Dimensional(More than 3 Variables) Exploratory Data Analysis",
+    "section": "",
+    "text": "10.1 EDA for Qualitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>High Dimensional(More than 3 Variables) Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch9.html#eda-for-quantitative-variables",
+    "href": "ch9.html#eda-for-quantitative-variables",
+    "title": "10  High Dimensional(More than 3 Variables) Exploratory Data Analysis",
+    "section": "10.2 EDA for Quantitative Variables",
+    "text": "10.2 EDA for Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>High Dimensional(More than 3 Variables) Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch9.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "href": "ch9.html#eda-for-qualitative-variables-and-quantitative-variables",
+    "title": "10  High Dimensional(More than 3 Variables) Exploratory Data Analysis",
+    "section": "10.3 EDA for Qualitative Variables and Quantitative Variables",
+    "text": "10.3 EDA for Qualitative Variables and Quantitative Variables",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>High Dimensional(More than 3 Variables) Exploratory Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "ch10.html",
+    "href": "ch10.html",
+    "title": "11  Casestudies in Exploratory Data Analysis",
+    "section": "",
+    "text": "11.1 Casestudy 1",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch10.html#casestudy-2",
+    "href": "ch10.html#casestudy-2",
+    "title": "11  Casestudies in Exploratory Data Analysis",
+    "section": "11.2 Casestudy 2",
+    "text": "11.2 Casestudy 2",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "ch10.html#data-wrangling-for-spatial-data",
+    "href": "ch10.html#data-wrangling-for-spatial-data",
+    "title": "11  Spatial Data Visualisation",
+    "section": "11.2 Data Wrangling for Spatial Data",
+    "text": "11.2 Data Wrangling for Spatial Data",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
+    ]
+  },
+  {
+    "objectID": "ch10.html#map-visualisations",
+    "href": "ch10.html#map-visualisations",
+    "title": "11  Spatial Data Visualisation",
+    "section": "11.3 Map Visualisations",
+    "text": "11.3 Map Visualisations",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Spatial Data Visualisation</span>"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+# R Programming Basics
+
+
+## Intalling R
+
+## Installing RStudio
+
+## Installing Rtools
+
+## Installing Packages in R
+
+## Import Data into R
+
+## Use factors for categorical variables
+

@@ -1,0 +1,9 @@
+# Introduction to Exploratory Data Analysis
+
+## What is Exploratory Data Analysis (EDA)?
+
+## Why EDA is critical before modeling?
+
+## DA vs Confirmatory Data Analysis (CDA)
+
+## Examples of questions EDA can answer

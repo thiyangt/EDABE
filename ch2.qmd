@@ -1,0 +1,10 @@
+# Getting to Know Your Data and Making Your Data Ready to Analyse
+
+
+## Types of Data 
+
+## Sacles of Measurements
+
+## Introduction to tidy data
+
+## Dos and Don'ts when Entering Data into an Excel Sheet

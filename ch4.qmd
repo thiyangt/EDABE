@@ -1,0 +1,22 @@
+# Data Wrangling for EDA
+
+## Introduction
+
+## Pivot Data from Long to Wide 
+
+## Pivot Data from Long to Wide 
+
+## Filter Subset of Rows
+
+## Select Subset of Columns
+
+## Reorder Rows and Columns
+
+## Create New Variables
+
+## Collapse Dataset to Summary Measures
+
+## Create Group-Wise Calculations
+
+## Rename Exsisting Variables
+
